@@ -1,7 +1,9 @@
-import "./App.css";
-
-function App() {
-  return <div className="App"></div>;
-}
+const App = () => {
+  return (
+    <div>
+      <h1 className="text-3xl font-bold underline">React Native Show case</h1>
+    </div>
+  );
+};
 
 export default App;
