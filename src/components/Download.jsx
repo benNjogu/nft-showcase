@@ -2,9 +2,11 @@ import React from "react";
 import styles from "../styles/Global";
 import assets from "../assets";
 
+let link = "https://github.com/benNjogu/nft-showcase";
+
 const Download = () => {
   const handleClick = () => {
-    window.open("https://github.com/benNjogu/nft-showcase", "_blank");
+    window.open(link, "_blank");
   };
 
   return (

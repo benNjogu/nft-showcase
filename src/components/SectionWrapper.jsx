@@ -3,6 +3,9 @@ import styles from "./../styles/Global";
 import assets from "../assets";
 import Button from "./Button";
 
+let link =
+  "https://expo.dev/@keymann/nft-market-place?serviceType=classic&distribution=expo-go";
+
 const SectionWrapper = ({
   title,
   description,
@@ -41,12 +44,7 @@ const SectionWrapper = ({
           >
             {description}
           </p>
-          {showBtn && (
-            <Button
-              assetUrl={assets.expo}
-              link="https://expo.dev/@keymann/nft-market-place?serviceType=classic&distribution=expo-go"
-            />
-          )}
+          {showBtn && <Button assetUrl={assets.expo} link={link} />}
         </div>
 
         <div className={`flex-1 ${styles.flexCenter} p-8 sm:px-0`}>
