@@ -4,7 +4,7 @@ import assets from "../assets";
 
 const Download = () => {
   const handleClick = () => {
-    window.open("link", "_blank");
+    window.open("https://github.com/benNjogu/nft-showcase", "_blank");
   };
 
   return (
